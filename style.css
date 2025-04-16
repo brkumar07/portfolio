@@ -313,6 +313,7 @@ article { display: none; }
 .contact-info {
     max-width: calc(100% - 46px);
     width: calc(100% - 46px);
+  
 }
 
     .contact-info :is(.contact-link, time, address) {
@@ -321,7 +322,17 @@ article { display: none; }
     }
 
     .contact-info address { font-style: normal; }
+/* Add this new rule */
+.contact-info a {
+    color: var(--white2);
+    text-decoration: none; /* optional: removes underline */
+}
 
+/* Optional: Add hover effect for better UX */
+.contact-info a:hover {
+    color: var(--white1); /* or any highlight color you like */
+    text-decoration: underline;
+}
 .contact-title {
     color: var(--light-gray70);
     font-size: var(--fs8);
