@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
-     <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS6HTWRixbGnOAKo3upt0asdPyQom0bmTXew&s" type="image/x-icon">
+
 </head>
-<body>
+<style>
+    body {
+      background-image: url('b.png'); /* make sure to update the path */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  </style>
+<body >
     <main>
         <aside class="sidebar " data-sidebar>
             <div class="sidebar-info">
@@ -15,6 +25,14 @@
                 </figure>
 
                 <div class="info-content">
+                    <div style="text-align: center; margin-top: 20px;">
+                        <h1 style="display: inline-flex; align-items: center;">
+                          <img src="dp.png" alt="Profile Image" style="height: 240px; width: 240px; vertical-align: middle; border-radius: 50%">
+                        
+                        </h1>
+                      </div>
+                      
+                      
                     <h1 class="name" title="Ammal">REVANTH KUMAR </h1>
                     <h1 class="name" title="Ammal">BELLAMKONDA </h1>
                     <p class="title">Aspiring Software Engineer</p>
@@ -77,7 +95,7 @@
 
                         <div class="contact-info">
                             <p class="contact-title">Location</p>
-                            <a href="" target="_blank">
+                            <a href="https://maps.app.goo.gl/TAuX4z3dCHfCUsej6" target="_blank">
                             <address>Hyderabad, Telangana , India-500015</address>
                             </a>
                         </div>
@@ -125,16 +143,12 @@
             </nav>
 
             <article class="about active" data-page="about">
-                <br>
-                <br> 
-                <h2 class="h2 article-title1" align="center">   DRIVEN BY CURIOSITY POWERED BY CODE !!!</h2>
-                <hr>
-                <hr>
-                <hr>  
-                <header>
+               <br>
+               <br>
+                <header> 
+                    <h3 class="h2 article-title1" align="center">Welcome aboard — dive into my projects, and the person behind the pixels!</h3>
                     <h2 class="h2 article-title">About me</h2>
-                    <h3 class="h2 article-title1" align="center">HELLO !!!</h3>
-                </header>
+                     </header>
 
                 <section class="about-text">
                     <p>I'm Bellamkonda Revanth Kumar, a Computer Science and Engineering (Honors) undergraduate, passionate about building intelligent, data-driven solutions that solve real-world problems.
@@ -149,7 +163,9 @@
                         </p>
                         <p>Let’s build something impactful together !!!</p>
                 </section>
-
+<br>
+<br>
+<br>
                 <section class="service">
                     <h3 class="h3 service-title">What I'm Interested in</h3>
 
@@ -206,12 +222,12 @@
 
                         <div class="modal-img-wrapper">
                             <figure class="modal-avatar-box">
-                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                                <img src="image.png" alt="Bellamkonda Revanth Kumar" width="80" data-modal-img>
                             </figure>
-
+                        
                             <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
                         </div>
-
+                        
                         <div class="modal-content">
                             <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
                             <time datetime="2023-06-14">14 June, 2023</time>
@@ -242,7 +258,7 @@
                              <h4 class="h4 timeline-item-title">University College of Engineering-Osmania University</h4>
                            
                             <span>2026 - current Percentage - 86.3 %</span>
-                            <p class="timeline-text">There I learnt a wide range of topics that are essential to understanding both the theory and practical aspects of computing. This involves programming fundamentals, computer architecture, operating systems, databases, software engineering, problem solving, collaboration and communication soft skills.</p>
+                            <p class="timeline-text">Here I'm learning a wide range of topics that are essential to understanding both the theory and practical aspects of computing. This involves programming fundamentals, computer architecture, operating systems, databases, software engineering, problem solving, collaboration and communication soft skills.</p>
                         </li>
 
                         <li class="timeline-item">
@@ -261,43 +277,56 @@
                     </ol>
                 </section>
                 <section class="skill">
-                    <h3 class="h3 skills-title">My Skills</h3>
-
+                    <h3 class="h3 skills-title" >My Skills</h3>
+                  
                     <ul class="skills-list content-card">
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">1. Web Development - (HTML-CSS-JS)</h5>
-                            </div>                      
-                            </li>
+                      
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">1. Web Development </h5>
+                          <P style="color: white" >- (HTML-CSS-JS)</P>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">2. Databases </h5>
+                          <P style="color: white" >- PHP,SQL</P>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">3. Programming Languages </h5>
+                          <P style="color: white" >- C/C++, JAVA, PYTHON</P>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">4. AI & ML </h5>
+                          <P style="color: white" > - NLP AND DEEP LEARNING USING TensorFlow, Keras, Scikit-learn, OpenCV</P>
 
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">2. Databases - PHP,SQL</h5>
-                            </div>
-                        </li>
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">3. Programming Languages -  C/C++,JAVA, PYTHON</h5>
-                            </div>
-                        </li>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">5. Data Processing and Analytics</h5>
+                          <P style="color: white" >  - Pandas, NumPy, Matplotlib, Seaborn</P>
 
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">4. AI & ML - NLP AND DEEP LEARNING USING Tensor-flow , Keras  , Scikit-learn  ,  OpenCV</h5>
-                            </div>
-                        </li>
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">5. Data Processing and Analytics - Pandas, NumPy, Matplotlib, SeaBorn</h5>
-                            </div>
-                        </li>
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">6. DATA STRUCTURES AND ALGORITHMS (DSA)</h5>
-                            </div>
-                        </li>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5" style="color: #FFD700;">6. DATA STRUCTURES AND ALGORITHMS (DSA)</h5>
+                        </div>
+                      </li>
+                      
                     </ul>
-                </section>
+                  </section>
+                  
             </article>
 
             <article class="portfolio " data-page="portfolio">
@@ -466,8 +495,8 @@
             
         </div>
     </main>
-  <div style="color:#1d1e22;">
-Copyright (c) 2025 
+ <div style="color:#FFD700;">
+    <p align="right">Copyright (c) 2025 </p> 
 
     <script src="script.js"></script>
 
